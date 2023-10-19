@@ -5,14 +5,48 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    text-align: left;
-    color: black;
+body {
+    text-align: center;
+    color: white;
     font-size: 2rem;
 }
-.container{
-    background: rgb(0, 0, 20, .9) url("https://i.postimg.cc/BbS2Gbx6/Screenshot-2023-10-12-165728.png");
-    background-size: contain;
+.container {
+    background: url("https://i.postimg.cc/yYtXDFc4/chelsea-fc-2023-24-stadium-away-dri-fit-football-shirt-DRLZVS.jpg") no-repeat center center;
+    background-size: cover;
     background-blend-mode: luminosity;
-    height: auto;
+    height: 100vh;
+}
+:is(h2, #box1) {
+    background-color: rgba(70, 70, 179, 0.8);
+    width: fit-content;
+    text-shadow: .1vw .2vw .1vw rgba(3, 3, 3, 0.7);
+}
+/* position relative:
+When an element is positioned relatively, it is positioned relative to its normal flow in the document.*/
+#box1 {
+    position: sticky;
+    left: 78px;
+    top: 12px;
+    border: 2px solid;
+    padding-inline: 12px;
+}
+/* Position sticky: */
+#box2 {
+    position: relative;
+    top: 0;
+    border: 2px dotted greenyellow;
+    background-color: rgb(31, 31, 32, .8);
+}
+/* Position absolute */
+#box3 {
+    position: relative;
+    border: 2px dotted rgb(37, 44, 27);
+    background-color: rgb(31, 31, 32, .8);
+}
+#posAbsolute {
+    position: absolute;
+    right: 0;
+    background-color: rgba(148, 226, 165, 0.8);
+    /* To place the box-shadow inside the box, use the 'inset' value. */
+    box-shadow: inset 1vw .3vw 1vw green;
 }
