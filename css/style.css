@@ -11,20 +11,8 @@ body{
     font-size: 2rem;
 }
 .container{
-    background: rgb(0, 20, 50, .9) url("https://i.postimg.cc/LssgfgsS/Screenshot-2023-10-19-093610.png");
+    background: rgb(0, 0, 20, .9) url("https://i.postimg.cc/BbS2Gbx6/Screenshot-2023-10-12-165728.png");
     background-size: contain;
     background-blend-mode: luminosity;
-    height: 70vh;
-}
-:is(h2, #box1) {
-    background-color: rgb(255, 255, 255, .2);
-    width: fit-content;
-    text-shadow: .1vw .1vw .1vw rgb(, 255, 32, .8);
-}
-#box1 {
-    position: relative;
-    left: 350px;
-    top: 20px;
-    border: 4px;
-    padding-inline: 20px;
+    height: auto;
 }
